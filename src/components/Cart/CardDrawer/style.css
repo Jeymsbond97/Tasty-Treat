@@ -1,0 +1,119 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.all_items_info{
+    height: 85vh;
+    overflow: auto;
+    margin-bottom: 9px;
+}
+
+.Content{
+    width: 100%;
+    padding: 10px 5px;
+}
+.card_info img{
+    width: 40px;  
+    height: 40px;
+    object-fit: cover;  
+}
+.items_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5;
+    width: 100%;
+}
+.item_info p{
+  font-size: 1rem;
+  font-weight: 400;
+}
+.item_info .price{
+  color: #df2020;
+  font-weight: 600;
+}
+.item_info span{
+    font-size: 1.1rem;
+}
+
+.item_buttons{
+    background-color: #fde4e4;;
+}
+
+.item_buttons button{
+  border: none;
+  background-color: #fde4e4;
+  padding: 3px 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.4s;
+  outline: none;
+}
+
+.item_buttons button:hover{
+    color: red;
+    transform: scale(1.2);
+}
+
+.delete{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: white;
+}
+.checkout{
+   background-color: #df2020;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 8vh;
+}
+.checkout h6{
+    color: white;
+    font-size: 0.9rem;
+}
+.checkout span{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.btn_checkout{
+    border: none;
+    border-radius: 5px;
+    padding: 7px 25px;
+    background-color: white;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn_checkout:hover{
+        color: #df2020;
+        background-color: #212245;
+} 
+
+@media(max-width: 992px) {
+    .btn_checkout{
+        font-size: 0.7rem;
+        padding: 5px 15px;
+    } 
+}
+@media(max-width: 576px) {
+    .btn_checkout{
+      font-size: 0.6rem;
+      padding: 5px 10px;
+    }
+    .checkout span{
+        font-size: 0.9rem;
+       font-weight: 700;
+    }
+    .checkout h6{
+        font-size: 0.8rem;
+    }
+   
+}

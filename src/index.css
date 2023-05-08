@@ -1,0 +1,123 @@
+
+  /*   
+  
+  #df2020
+  #212245
+  #fde4e4
+  #fcfcfc
+  
+   */
+  
+  
+  
+  
+  /* google fonts */
+  
+  @import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+  
+  /* reset default style */
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* base style */
+  
+  body {
+    background: #fcfcfc;
+    font-family: "Istok Web", sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "RocknRoll One", sans-serif !important;
+  }
+  
+  a {
+    text-decoration: none;
+    color: unset;
+  }
+  
+  h1,
+  h2 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #212245;
+  }
+  
+  /* section {
+    padding: 60px 0px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    section {
+      padding: 40px 0px;
+    }
+  
+    h1,
+    h2 {
+      font-size: 1.5rem;
+    }
+  };
+   */
+@media (max-width: 428px){
+  .ant-drawer-content-wrapper{
+    width: 300px !important;
+  }
+  
+}
+@media (max-width: 375px){
+  .ant-drawer-content-wrapper{
+    width: 250px !important;
+  }
+}
+@media (max-width: 768px){
+  .ant-drawer-content-wrapper{
+    width: 300px !important;
+  }
+}
+
+
+.css-heg063-MuiTabs-flexContainer{
+  justify-content: center !important;
+}
+.css-19kzrtu {
+  padding: 0 !important;
+  margin-top: 30px;
+  box-sizing: border-box !important;
+}
+.css-e784if-MuiTypography-root{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  box-sizing: border-box !important;
+  /* justify-content: center; */
+  /* gap: 10px; */
+}
+.yUTXi{
+  display: flex;
+  flex-wrap: wrap;
+}
+.ddFMZK{
+  display: flex;
+  flex-wrap: wrap;
+}
+.ctXfaU{
+  height: 100px;
+  line-height: 100px;
+}
+.ant-drawer-body{
+ padding: 0 !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #1976d2;
+  background: white;
+  border-radius: 25px;
+}
